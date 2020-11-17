@@ -59,10 +59,10 @@ while(True):
         #Generar una respuesta a partir de la informacion del mensaje
         if "Hola" in texto:
             texto_respuesta = "Hola, " + nombre + "!"
-        elif "hola" in texto:
-            texto_respuesta = "Hola, " + nombre + "!"
+        elif "Adios" in texto:
+            texto_respuesta = "Hasta pronto!"
         else:
-            texto_respuesta = "No t'he entès, prova de tornar'm-ho a dir amb altres paraules!"
+            texto_respuesta = "Has escrito: \"" + texto + "\""
  
         #Enviar la respuesta
         enviar_mensaje(idchat, texto_respuesta)

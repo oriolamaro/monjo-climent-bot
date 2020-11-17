@@ -16,11 +16,13 @@ keyboard==0.13.5
 MarkupSafe==1.1.1
 pycparser==2.20
 pyTelegram==0.0.1
+pyTelegramBotAPI==3.7.3
 python-telegram-bot==13.0
 pytz==2020.4
-requests==2.25.0
+requests==2.7.0
 six==1.15.0
 style==1.1.0
+telebot==0.0.3
 telegram==0.0.1
 tornado==6.1
 typing==3.7.4.3
